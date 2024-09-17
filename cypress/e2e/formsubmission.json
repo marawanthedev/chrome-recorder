@@ -1,0 +1,159 @@
+{
+    "title": "formsubmission",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 771,
+            "height": 729,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:3000/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:3000/",
+                    "title": "React App"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Name"
+                ],
+                [
+                    "#\\:r1\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r1:\"]"
+                ],
+                [
+                    "pierce/#\\:r1\\:"
+                ]
+            ],
+            "offsetY": 33,
+            "offsetX": 127.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "marwan",
+            "selectors": [
+                [
+                    "aria/Name"
+                ],
+                [
+                    "#\\:r1\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r1:\"]"
+                ],
+                [
+                    "pierce/#\\:r1\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "s@",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#\\:r3\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r3:\"]"
+                ],
+                [
+                    "pierce/#\\:r3\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "2",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "s@s.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#\\:r3\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r3:\"]"
+                ],
+                [
+                    "pierce/#\\:r3\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 124.60000610351562
+        },
+        {
+            "type": "waitForElement",
+            "selectors": [
+                "aria/CLOSE"
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "aria/CLOSE",
+                "div.MuiModal-root button",
+                "xpath//html/body/div[3]/div[3]/button",
+                "pierce/div.MuiModal-root button",
+                "text/Close"
+            ],
+            "offsetX": 53.137481689453125,
+            "offsetY": 5
+        }
+    ]
+}
